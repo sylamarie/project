@@ -1,0 +1,55 @@
+body {
+    background-color: #f8efef;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif; /* Default Typography */
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #63453a;
+    padding: 20px 10px;
+}
+
+h1 {
+    color:  #f8efef;
+    font-size: 2em;
+}
+
+/* Section Headings */
+h2 {
+    color:   #63453a;
+    border-bottom: 2px solid #dcdcdc; /* Light grey border for subtle separation */
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Paragraphs and Lists */
+p {
+    font-family: "Roboto", sans-serif; /* Roboto for paragraphs */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #63453a;
+    color: #f8efef;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.875rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer p .highlight {
+    color: #ffc107; /* Color for date or highlighted text */
+}
